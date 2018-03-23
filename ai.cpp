@@ -47,7 +47,7 @@ int main() {
 
     enemies ene[5];
 
-    cout<<"1 6 3 4 5 2 7 8"<<endl;
+    cout<<"9 6 3 7 5 2 4 8"<<endl;
 
     while(1) {
 
@@ -75,6 +75,8 @@ int main() {
 
             if(tmp == "DECK") {
                 ss>>deck1;
+
+
                 ss>>deck2;
                 ss>>deck3;
                 ss>>deck4;
@@ -109,42 +111,42 @@ int main() {
         }
 
         if(mana>=2) {
-            cout<<"1 3 5 23";
+            cout<<"1 3 5 23"<<endl<<0;
         }
         if(mana>=2) {
-            cout<<"1 3 15 23";
+            cout<<"1 3 15 23"<<endl<<0;
         }
 
         if(mana>=3) {
-            cout<<"1 9 5 12";
+            cout<<"1 9 5 12"<<endl<<0;
         }
 
         if(mana>=1) {
-            cout<<"1 9 5 10";
+            cout<<"1 9 5 10"<<endl<<0;
         }
 
         if(mana>=4) {
-            cout<<"1 6 5 20";
+            cout<<"1 6 5 20"<<endl<<0;
         }
 
         if(mana>=4) {
-            cout<<"1 6 15 20";
+            cout<<"1 6 15 20"<<endl<<0;
         }
 
         if(mana>=2&&mana<8) {
-            cout<<"1 3 15 23";
+            cout<<"1 3 15 23"<<endl<<0;
         }
 
         else {
-            cout<<"1 7 15 23";
+            cout<<"1 7 15 23"<<endl<<0;
         }
 
         if(mana>=2&&mana<8) {
-            cout<<"1 3 5 23";
+            cout<<"1 3 5 23"<<endl<<0;
         }
 
         else {
-            cout<<"1 7 5 23";
+            cout<<"1 7 5 23"<<endl<<0;
         }
     }
     //	 if(tower[6]!=8000){
