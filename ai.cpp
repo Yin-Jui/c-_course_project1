@@ -49,7 +49,7 @@ int main() {
 
     cout<<"9 6 3 7 5 2 4 8"<<endl;
 
-    while(1) {
+  //  while(1) {
 
         while(1) {
 
@@ -110,7 +110,7 @@ int main() {
 
         }
 
-        if(mana>=2) {
+ /*       if(mana>=2) {
             cout<<"1 3 5 23"<<endl<<0;
         }
         if(mana>=2) {
@@ -153,7 +153,7 @@ int main() {
 
     //  cout<<"1 8 15 12";}
 
-
+*/
 
     //  cout<<tower[1]<<" "<<tower[2]<<endl;
 //	cout<<all[0].id<<" "<<all[0].pos_x<<" "<<all[0].pos_y<<" "<<all[0].HP<<endl;
