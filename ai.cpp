@@ -175,7 +175,7 @@ int main() {
 
         //  cout<<tower[1]<<" "<<tower[2]<<endl;
 //	cout<<all[0].id<<" "<<all[0].pos_x<<" "<<all[0].pos_y<<" "<<all[0].HP<<endl;
-        cout<<time<<mana<<endl<<deck1<<endl<<deck2<<deck3<<deck4<<endl ;
+//       cout<<time<<mana<<endl<<deck1<<endl<<deck2<<deck3<<deck4<<endl ;
     }
     return 0;
 }
