@@ -113,7 +113,6 @@ int main() {
 
         if(mana==0||mana==1) {
             cout<<0<<endl;
-            break;
         }
 
         if(mana>=2) {
