@@ -49,12 +49,13 @@ int main() {
 
     cout<<"9 6 3 7 5 2 4 8"<<endl;
 
-  // while(1) {
+    // while(1) {
 
     while(1) {
 
         while(1) {
-frinum=0;enenum=0;
+            frinum=0;
+            enenum=0;
             string input,tmp;
 
             getline(cin,input);
@@ -112,8 +113,8 @@ frinum=0;enenum=0;
 
         if(mana==0||mana==1) {
             cout<<0<<endl;
- break;       
-		}
+            break;
+        }
 
         if(mana>=2) {
             if(deck1=='3'||deck2=='3'||deck3=='3'||deck4=='3') {
@@ -193,16 +194,16 @@ frinum=0;enenum=0;
 
         }
 
- //   }
-    //	 if(tower[6]!=8000){
+//   }
+        //	 if(tower[6]!=8000){
 
-    //  cout<<"1 8 15 12";}
+        //  cout<<"1 8 15 12";}
 
 
-    //  cout<<tower[1]<<" "<<tower[2]<<endl;
+        //  cout<<tower[1]<<" "<<tower[2]<<endl;
 //	cout<<all[0].id<<" "<<all[0].pos_x<<" "<<all[0].pos_y<<" "<<all[0].HP<<endl;
- //   cout<<time<<endl<<mana<<endl<<deck1<<endl<<deck2<<deck3<<deck4<<endl ;
-}
+//   cout<<time<<endl<<mana<<endl<<deck1<<endl<<deck2<<deck3<<deck4<<endl ;
+    }
     return 0;
 }
 
