@@ -112,7 +112,7 @@ int main() {
 
         if(mana<2&&(deck1!='3'||deck2!='3'||deck3!='3'||deck4!='3')) {
             cout<<0<<endl;
-            break;
+            continue;
         }
 
         if(mana>=2) {
