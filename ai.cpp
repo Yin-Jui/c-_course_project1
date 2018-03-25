@@ -115,7 +115,7 @@ int main() {
             break;
         }
 
-        srand((unsigned)1301298309182308);
+        srand((unsigned)298304896465308);
 
         condition=rand()%2;
 
