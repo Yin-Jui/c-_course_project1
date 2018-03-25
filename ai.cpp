@@ -121,7 +121,7 @@ int main() {
             break;
         }
 
-        srand((unsigned)65465465465445);
+        //    srand((unsigned)time(&ts);
 
         condition=rand()%2;
 
@@ -163,7 +163,7 @@ int main() {
                 }
             }
 
-            if(mana>=6) {
+            if(mana>=8) {
                 if(deck1=='7'||deck2=='7'||deck3=='7'||deck4=='7') {
                     cout<<"1 7 5 20"<<endl<<0<<endl;
                     mana-=8;
@@ -206,7 +206,7 @@ int main() {
                 }
             }
 
-            if(mana>=6) {
+            if(mana>=8) {
                 if(deck1=='7'||deck2=='7'||deck3=='7'||deck4=='7') {
                     cout<<"1 7 15 20"<<endl<<0<<endl;
                     mana-=8;
