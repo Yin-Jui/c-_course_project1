@@ -117,7 +117,11 @@ int main() {
 
         //  condition=counter%2;
 
-        srand((unsigned)5665484);
+        if(tower[5]==0) {
+            break;
+        }
+
+        srand((unsigned)65465465465445);
 
         condition=rand()%2;
 
