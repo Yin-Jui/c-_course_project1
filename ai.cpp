@@ -49,7 +49,7 @@ int main() {
 
     enemies ene[5];
 
-    cout<<"9 6 5 3 7 2 4 8"<<endl;
+    cout<<"9 4 5 7 8 2 6 3"<<endl;
 
     while(1) {
 
@@ -178,7 +178,7 @@ int main() {
 
             if(mana>=1) {
                 if(deck1=='5'||deck2=='5'||deck3=='5'||deck4=='5') {
-                    cout<<"1 5 20 1"<<endl<<0<<endl;
+                    cout<<"1 5 19 1"<<endl<<0<<endl;
                     mana-=1;
                 }
             }
@@ -186,7 +186,7 @@ int main() {
 
             if(mana>=3) {
                 if(deck1=='9'||deck2=='9'||deck3=='9'||deck4=='9') {
-                    cout<<"1 9 20 1"<<endl<<0<<endl;
+                    cout<<"1 9 19 1"<<endl<<0<<endl;
                     mana-=3;
                 }
             }
