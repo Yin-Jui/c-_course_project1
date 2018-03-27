@@ -38,7 +38,7 @@ class enemies {
 
 int main() {
 
-    int time,mana,tower_num,frinum=0,enenum=0,condition;
+    int Time,mana,tower_num,frinum=0,enenum=0,condition;
     unsigned counter=1;
 
     char deck1,deck2,deck3,deck4,period;
@@ -70,7 +70,7 @@ int main() {
             ss>>tmp;
 
             if(tmp == "TIME") {
-                ss>>time;
+                ss>>Time;
             }
             if(tmp == "MANA") {
                 ss>>mana;
@@ -115,7 +115,7 @@ int main() {
             break;
         }
 
-        srand((unsigned)298304896465308);
+        srand((unsigned)time(NULL));
 
         condition=rand()%2;
 
