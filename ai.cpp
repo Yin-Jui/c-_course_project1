@@ -117,9 +117,9 @@ int main() {
 
         srand((unsigned)time(NULL));
 
-        condition=rand()%2;
+        condition=rand()%1;
         if(tower[4]<20) {
-            condition=1;
+            condition=0;
         }
 
         if(tower[5]<20) {
