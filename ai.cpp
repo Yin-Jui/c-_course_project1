@@ -120,7 +120,7 @@ int main() {
         condition=rand()%7;
 
 
-        if(tower[1]<20||tower[3]<20||Time<40) {
+        if(tower[1]<20||tower[3]<20||Time<45) {
             /*    if(condition=0)probality=1;
                 if(condition=5)probality=1;
                 if(condition=6)probality=1;
