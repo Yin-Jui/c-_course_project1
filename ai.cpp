@@ -114,25 +114,30 @@ int main() {
 
         srand((unsigned)time(NULL));
 
-        condition=rand()%2;
+        condition=rand()%6;
 
-        if(condition==1) {
-            probability=1;
-        }
+      
+        if(mana==10) {
+            probability=2;
+   }
 
-        if(condition==0) {
+        if(tower[4]<5) {
+                 probability=0;
+          }
+
+        if(tower[6]<5) {
+                 probability=1;
+          }
+	
+		if(condition>=0&&condition<=2) {
             probability=0;
         }
 
-
-        if(mana==10) {
-            if(condition>=0&&condition<=4)probability=2;
+        if(condition>2&&condition<=5) {
+            probability=1;
         }
 
-//        if(tower[1]<20||tower[3]<20||Time<45) {
-        //          if(condition>=0&&condition<=4)probability=1;
-        //  }
-
+          
         switch(probability) {
 
         case 1:
@@ -158,7 +163,7 @@ int main() {
 
             if(mana>=4) {
                 if(deck1=='6'||deck2=='6'||deck3=='6'||deck4=='6') {
-                    cout<<"1 6 10 10"<<endl<<0<<endl;
+                    cout<<"1 6 5 10"<<endl<<0<<endl;
                     mana-=4;
                 }
             }
@@ -166,14 +171,14 @@ int main() {
 
             if(mana>=6) {
                 if(deck1=='4'||deck2=='4'||deck3=='4'||deck4=='4') {
-                    cout<<"1 4 10 10"<<endl<<0<<endl;
+                    cout<<"1 4 5 10"<<endl<<0<<endl;
                     mana-=6;
                 }
             }
 
             if(mana>=8) {
                 if(deck1=='7'||deck2=='7'||deck3=='7'||deck4=='7') {
-                    cout<<"1 7 10 10"<<endl<<0<<endl;
+                    cout<<"1 7 5 10"<<endl<<0<<endl;
                     mana-=8;
                 }
             }
@@ -225,42 +230,42 @@ int main() {
         case 2:
 
             if(deck1=='7'||deck2=='7'||deck3=='7'||deck4=='7') {
-                cout<<"1 7 5 22"<<endl;
+                cout<<"1 7 10 22"<<endl;
                 if(deck1=='3'||deck2=='3'||deck3=='3'||deck4=='3') {
-                    cout<<"1 3 5 22"<<endl<<0<<endl;
+                    cout<<"1 3 10 22"<<endl<<0<<endl;
                 }
             }
 
 
             if(deck1=='4'||deck2=='4'||deck3=='4'||deck4=='4') {
-                cout<<"1 4 5 22"<<endl;
+                cout<<"1 4 10 22"<<endl;
 
                 if(deck1=='6'||deck2=='6'||deck3=='6'||deck4=='6') {
-                    cout<<"1 6 5 20"<<endl<<0<<endl;
+                    cout<<"1 6 10 20"<<endl<<0<<endl;
                 }
 
                 if(deck1=='3'||deck2=='3'||deck3=='3'||deck4=='3') {
-                    cout<<"1 3 5 18"<<endl<<"1 3 5 20"<<endl<<0<<endl;
+                    cout<<"1 3 10 18"<<endl<<"1 3 10 20"<<endl<<0<<endl;
                 }
             }
 
 
             if(deck1=='6'||deck2=='6'||deck3=='6'||deck4=='6') {
-                cout<<"1 6 5 20"<<endl<<"1 6 5 18"<<endl<<0<<endl;
+                cout<<"1 6 10 20"<<endl<<"1 6 10 18"<<endl<<0<<endl;
                 if(deck1=='3'||deck2=='3'||deck3=='3'||deck4=='3') {
-                    cout<<"1 3 5 22"<<endl<<0<<endl;
+                    cout<<"1 3 10 22"<<endl<<0<<endl;
                 }
             }
 
 
             if(deck1=='1'||deck2=='1'||deck3=='1'||deck4=='1') {
-                cout<<"1 1 5 22"<<endl<<"1 1 5 20"<<endl<<0<<endl;
+                cout<<"1 1 10 22"<<endl<<"1 1 10 20"<<endl<<0<<endl;
 
             }
 
 
             if(deck1=='8'||deck2=='8'||deck3=='8'||deck4=='8') {
-                cout<<"1 8 5 18"<<endl<<"1 8 5 16"<<endl<<0<<endl;
+                cout<<"1 8 10 18"<<endl<<"1 8 10 16"<<endl<<0<<endl;
 
             }
             break;
