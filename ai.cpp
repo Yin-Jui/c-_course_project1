@@ -114,22 +114,26 @@ int main() {
 
         srand((unsigned)time(NULL));
 
-        condition=rand()%6;
+        condition=rand()%2;
 
-       if(tower[4]<20){
-		   condition=1;}
+		probability=0;
+       
+		if(tower[1]<20){
+		   probability=1;
+	   }
 
-
+/*
 		if(tower[4]<5||tower[3]<20) {
                  condition=0;
           }
 
         if(tower[6]<20){
-			condition=0;}
+			condition=0;
+		}
 		if(tower[6]<5||tower[1]<20) {
                  condition=3;
-          }
-switch(condition){
+          }*/
+/*switch(condition){
 
 	case 0:
 		probability=0;
@@ -158,7 +162,7 @@ switch(condition){
 		probability=2;
 		break;
 }
-		
+*/		
 		
 		
 		switch(probability) {
@@ -171,7 +175,7 @@ switch(condition){
 
             if(mana>=3) {
                 if(deck1=='9'||deck2=='9'||deck3=='9'||deck4=='9') {
-                    cout<<"1 9 15 22"<<endl<<0<<endl;
+                    cout<<"1 9 5 22"<<endl<<0<<endl;
                 }
             }
             if(mana>=6) {
@@ -216,12 +220,12 @@ switch(condition){
                 }
             }
 
-            if(mana>=4) {
+            if(mana>=4&&Time<165) {
                 if(deck1=='6'||deck2=='6'||deck3=='6'||deck4=='6') {
                     cout<<"1 6 15 12"<<endl<<0<<endl;
                 }
             }
-            if(mana>=7) {
+            if(mana>=7&&Time<160) {
                 if(deck1=='C'||deck2=='C'||deck3=='C'||deck4=='C') {
                     cout<<"1 C 15 12"<<endl;
 				}
@@ -229,7 +233,7 @@ switch(condition){
 
             if(mana>=8) {
                 if(deck1=='7'||deck2=='7'||deck3=='7'||deck4=='7') {
-                    cout<<"1 7 15 18"<<endl<<0<<endl;
+                    cout<<"1 7 15 20"<<endl<<0<<endl;
                 }
             }
             break;
