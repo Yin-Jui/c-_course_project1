@@ -118,27 +118,49 @@ int main() {
 
       
         if(mana==10) {
-            probability=2;
+            condition=6;
    }
 
         if(tower[4]<5) {
-                 probability=0;
+                 condition=0;
           }
 
         if(tower[6]<5) {
-                 probability=1;
+                 condition=3;
           }
-	
-		if(condition>=0&&condition<=2) {
-            probability=0;
-        }
+switch(condition){
 
-        if(condition>2&&condition<=5) {
-            probability=1;
-        }
+	case 0:
+		probability=0;
+		break;
+	case 1:
 
+		probability=0;
+		break;
+	case 2:
           
-        switch(probability) {
+		probability=0;
+		break;
+	case 3:
+        
+		probability=1;
+		break;
+	case 4:
+		
+		probability=1;
+		break;
+	case 5:
+		
+		probability=1;
+		break;
+	case 6:
+		probability=2;
+		break;
+}
+		
+		
+		
+		switch(probability) {
 
         case 1:
 
