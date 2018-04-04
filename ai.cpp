@@ -49,7 +49,7 @@ int main() {
 
     enemies ene[5];
 
-    cout<<"9 4 5 7 8 1 6 3"<<endl;
+    cout<<"3 4 1 7 8 5 6 9"<<endl;
 
     while(1) {
 
@@ -121,11 +121,16 @@ int main() {
             condition=6;
    }
 
-        if(tower[4]<5||tower[3]<20) {
+       if(tower[4]<20){
+		   condition=1;}
+
+		if(tower[4]<5||tower[3]<20) {
                  condition=0;
           }
 
-        if(tower[6]<5||tower[1]<20) {
+        if(tower[6]<20){
+			condition=0;}
+		if(tower[6]<5||tower[1]<20) {
                  condition=3;
           }
 switch(condition){
@@ -168,25 +173,23 @@ switch(condition){
                 cout<<0<<endl;
             }
 
-            if(mana>=1) {
-                if(deck1=='5'||deck2=='5'||deck3=='5'||deck4=='5') {
-                    cout<<"1 5 10 1"<<endl<<0<<endl;
-                    mana-=1;
-                }
+            if(mana>=5) {
+                if(deck1=='1'||deck2=='1'||deck3=='1'||deck4=='1') {
+                    cout<<"1 1 5 20"<<endl<<0<<endl;
+                
+				}
             }
 
 
-            if(mana>=3) {
-                if(deck1=='9'||deck2=='9'||deck3=='9'||deck4=='9') {
-                    cout<<"1 9 11 1"<<endl<<0<<endl;
-                    mana-=3;
+            if(mana>=2) {
+                if(deck1=='3'||deck2=='3'||deck3=='3'||deck4=='3') {
+                    cout<<"1 3 5 20"<<endl<<0<<endl;
                 }
             }
 
             if(mana>=4) {
                 if(deck1=='6'||deck2=='6'||deck3=='6'||deck4=='6') {
                     cout<<"1 6 5 20"<<endl<<0<<endl;
-                    mana-=4;
                 }
             }
 
@@ -194,14 +197,12 @@ switch(condition){
             if(mana>=6) {
                 if(deck1=='4'||deck2=='4'||deck3=='4'||deck4=='4') {
                     cout<<"1 4 5 24"<<endl<<0<<endl;
-                    mana-=6;
                 }
             }
 
             if(mana>=8) {
                 if(deck1=='7'||deck2=='7'||deck3=='7'||deck4=='7') {
                     cout<<"1 7 5 22"<<endl<<0<<endl;
-                    mana-=8;
                 }
             }
             break;
@@ -211,25 +212,22 @@ switch(condition){
                 cout<<0<<endl;
             }
 
-            if(mana>=1) {
-                if(deck1=='5'||deck2=='5'||deck3=='5'||deck4=='5') {
-                    cout<<"1 5 11 1"<<endl<<0<<endl;
-                    mana-=1;
+            if(mana>=5) {
+                if(deck1=='1'||deck2=='1'||deck3=='1'||deck4=='1') {
+                    cout<<"1 1 15 20"<<endl<<0<<endl;
                 }
             }
 
 
-            if(mana>=3) {
-                if(deck1=='9'||deck2=='9'||deck3=='9'||deck4=='9') {
-                    cout<<"1 9 10 1"<<endl<<0<<endl;
-                    mana-=3;
+            if(mana>=2) {
+                if(deck1=='3'||deck2=='3'||deck3=='3'||deck4=='3') {
+                    cout<<"1 3 15 20"<<endl<<0<<endl;
                 }
             }
 
             if(mana>=4) {
                 if(deck1=='6'||deck2=='6'||deck3=='6'||deck4=='6') {
                     cout<<"1 6 15 20"<<endl<<0<<endl;
-                    mana-=4;
                 }
             }
 
@@ -237,14 +235,12 @@ switch(condition){
             if(mana>=6) {
                 if(deck1=='4'||deck2=='4'||deck3=='4'||deck4=='4') {
                     cout<<"1 4 15 24"<<endl<<0<<endl;
-                    mana-=6;
                 }
             }
 
             if(mana>=8) {
                 if(deck1=='7'||deck2=='7'||deck3=='7'||deck4=='7') {
                     cout<<"1 7 15 22"<<endl<<0<<endl;
-                    mana-=8;
                 }
             }
             break;
