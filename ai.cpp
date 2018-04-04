@@ -208,19 +208,25 @@ int main() {
                 cout<<0<<endl;
             }
 
-            if(mana>=3) {
+            if(mana>=3&&Time<178) {
                 if(deck1=='9'||deck2=='9'||deck3=='9'||deck4=='9') {
                     cout<<"1 9 15 22"<<endl<<0<<endl;
                 }
             }
 
-            if(mana>=6) {
+            if(mana>=6&&Time<178) {
                 if(deck1=='4'||deck2=='4'||deck3=='4'||deck4=='4') {
                     cout<<"1 4 15 20"<<endl<<0<<endl;
                 }
             }
 
-            if(mana>=4&&Time<165) {
+
+			if(mana>=5) {
+                if(deck1=='1'||deck2=='1'||deck3=='1'||deck4=='1') {
+                    cout<<"1 5 15 12"<<endl<<0<<endl;
+                }
+            }
+			if(mana>=4&&Time<165) {
                 if(deck1=='6'||deck2=='6'||deck3=='6'||deck4=='6') {
                     cout<<"1 6 15 12"<<endl<<0<<endl;
                 }
