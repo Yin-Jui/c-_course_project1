@@ -121,11 +121,11 @@ int main() {
             condition=6;
    }
 
-        if(tower[4]<5) {
+        if(tower[4]<5||tower[3]<20) {
                  condition=0;
           }
 
-        if(tower[6]<5) {
+        if(tower[6]<5||tower[1]<20) {
                  condition=3;
           }
 switch(condition){
