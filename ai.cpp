@@ -49,7 +49,7 @@ int main() {
 
     enemies ene[5];
 
-    cout<<"3 4 1 7 8 5 6 9"<<endl;
+    cout<<"9 4 1 7 8 5 6 3"<<endl;
 
     while(1) {
 
@@ -173,9 +173,9 @@ switch(condition){
                 cout<<0<<endl;
             }
 
-            if(mana>=5) {
-                if(deck1=='1'||deck2=='1'||deck3=='1'||deck4=='1') {
-                    cout<<"1 1 5 20"<<endl<<0<<endl;
+            if(mana>=3) {
+                if(deck1=='9'||deck2=='9'||deck3=='9'||deck4=='9') {
+                    cout<<"1 9 5 22"<<endl<<0<<endl;
                 
 				}
             }
@@ -183,7 +183,7 @@ switch(condition){
 
             if(mana>=2) {
                 if(deck1=='3'||deck2=='3'||deck3=='3'||deck4=='3') {
-                    cout<<"1 3 5 20"<<endl<<0<<endl;
+                    cout<<0<<endl;
                 }
             }
 
@@ -212,16 +212,16 @@ switch(condition){
                 cout<<0<<endl;
             }
 
-            if(mana>=5) {
-                if(deck1=='1'||deck2=='1'||deck3=='1'||deck4=='1') {
-                    cout<<"1 1 15 20"<<endl<<0<<endl;
+            if(mana>=3) {
+                if(deck1=='9'||deck2=='9'||deck3=='9'||deck4=='9') {
+                    cout<<"1 9 15 22"<<endl<<0<<endl;
                 }
             }
 
 
             if(mana>=2) {
                 if(deck1=='3'||deck2=='3'||deck3=='3'||deck4=='3') {
-                    cout<<"1 3 15 20"<<endl<<0<<endl;
+                    cout<<0<<endl;
                 }
             }
 
