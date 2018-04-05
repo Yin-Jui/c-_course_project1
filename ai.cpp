@@ -231,7 +231,7 @@ int main() {
             if(Time>0) {
 
                 if(mana>=8&&cs==1) {
-                    cout<<"1 7 15 20"<<endl<<0<<endl;
+                    cout<<"1 7 15 18"<<endl<<0<<endl;
                 } else {
                     if(mana==0) {
                         cout<<0<<endl;
@@ -245,7 +245,7 @@ int main() {
 
                     if(mana>=6&&Time<168) {
                         if(deck1=='4'||deck2=='4'||deck3=='4'||deck4=='4') {
-                            cout<<"1 4 12 19"<<endl<<0<<endl;
+                            cout<<"1 4 12 17"<<endl<<0<<endl;
                         }
                     }
                     if(mana>=3&&Time<165) {
