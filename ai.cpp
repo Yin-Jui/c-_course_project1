@@ -57,7 +57,7 @@ int checkdeck(char a) {
 int main() {
 
 
-    cout<<"9 4 1 7 5 C 6 3"<<endl;
+    cout<<"9 4 1 7 2 C 6 3"<<endl;
 
 
     while(1) {
@@ -176,7 +176,7 @@ int main() {
                 break;
             case 3:
 
-                probability=0;
+                probability=1;
                 break;
             }
 
@@ -188,7 +188,7 @@ int main() {
             if(Time>0) {
 
                 if(mana>=8&&cs==1) {
-                    cout<<"1 7 5 16"<<endl<<0<<endl;
+                    cout<<"1 7 5 14"<<endl<<0<<endl;
                 } else {
                     if(mana==0) {
                         cout<<0<<endl;
@@ -196,24 +196,24 @@ int main() {
 
                     if(mana>=3) {
                         if(deck1=='9'||deck2=='9'||deck3=='9'||deck4=='9') {
-                            cout<<"1 9 5 22"<<endl<<0<<endl;
+                            cout<<"1 9 5 12"<<endl<<0<<endl;
                         }
                     }
 
                     if(mana>=6) {
                         if(deck1=='4'||deck2=='4'||deck3=='4'||deck4=='4') {
-                            cout<<"1 4 5 16"<<endl<<0<<endl;
+                            cout<<"1 4 5 14"<<endl<<0<<endl;
                         }
                     }
-                    if(mana>=1) {
-                        if(deck1=='5'||deck2=='5'||deck3=='5'||deck4=='5') {
-                            cout<<"1 5 5 12"<<endl<<0<<endl;
+                    if(mana>=3) {
+                        if(deck1=='2'||deck2=='2'||deck3=='2'||deck4=='2') {
+                            cout<<"1 2 5 12"<<endl<<0<<endl;
                         }
                     }
                     if(mana>=4) {
                         if(boolean) {
                             if(deck1=='6'||deck2=='6'||deck3=='6'||deck4=='6') {
-                                cout<<"1 6 5 14"<<endl<<0<<endl;
+                                cout<<"1 6 5 12"<<endl<<0<<endl;
                             }
                         }
                     }
@@ -247,26 +247,26 @@ int main() {
 
                     if(mana>=6&&Time<168) {
                         if(deck1=='4'||deck2=='4'||deck3=='4'||deck4=='4') {
-                            cout<<"1 4 15 20"<<endl<<0<<endl;
+                            cout<<"1 4 15 19"<<endl<<0<<endl;
                         }
                     }
-                    if(mana>=1&&Time<165) {
-
-                        if(deck1=='5'||deck2=='5'||deck3=='5'||deck4=='5') {
-                            cout<<"1 5 15 12"<<endl<<0<<endl;
+                    if(mana>=3&&Time<165) {
+                                       
+                        if(deck1=='2'||deck2=='2'||deck3=='2'||deck4=='2') {
+                            cout<<"1 2 15 12"<<endl<<0<<endl;
                         }
                     }
 
-                    if(mana>=7&&Time<150) {
+                    if(mana>=7&&Time<160) {
                         if(boolean) {
                             if(deck1=='C'||deck2=='C'||deck3=='C'||deck4=='C') {
                                 cout<<"1 C 15 18"<<endl<<0<<endl;
                             }
                         }
                     }
-                    if(mana>=4&&Time<150) {
+                    if(mana>=4&&Time<170) {
                         if(deck1=='6'||deck2=='6'||deck3=='6'||deck4=='6') {
-                            cout<<"1 6 15 18"<<endl<<0<<endl;
+                            cout<<"1 6 15 20"<<endl<<0<<endl;
                         }
                     }
                 }
