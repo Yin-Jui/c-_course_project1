@@ -146,7 +146,7 @@ int main() {
 
         probability=0;
 
-        if(tower[1]<20) {
+        if(tower[1]<20||tower[6]<5) {
 
 
 
@@ -188,7 +188,7 @@ int main() {
             if(Time>0) {
 
                 if(mana>=8&&cs==1) {
-                    cout<<"1 7 15 20"<<endl<<0<<endl;
+                    cout<<"1 7 5 16"<<endl<<0<<endl;
                 } else {
                     if(mana==0) {
                         cout<<0<<endl;
@@ -196,18 +196,13 @@ int main() {
 
                     if(mana>=3) {
                         if(deck1=='9'||deck2=='9'||deck3=='9'||deck4=='9') {
-                            cout<<"1 9 15 22"<<endl<<0<<endl;
+                            cout<<"1 9 5 22"<<endl<<0<<endl;
                         }
                     }
 
-                    if(mana>=8) {
-                        if(deck1=='7'||deck2=='7'||deck3=='7'||deck4=='7') {
-                            cout<<"1 7 5 18"<<endl<<0<<endl;
-                        }
-                    }
                     if(mana>=6) {
                         if(deck1=='4'||deck2=='4'||deck3=='4'||deck4=='4') {
-                            cout<<"1 4 5 20"<<endl<<0<<endl;
+                            cout<<"1 4 5 16"<<endl<<0<<endl;
                         }
                     }
                     if(mana>=1) {
@@ -218,7 +213,7 @@ int main() {
                     if(mana>=4) {
                         if(boolean) {
                             if(deck1=='6'||deck2=='6'||deck3=='6'||deck4=='6') {
-                                cout<<"1 6 5 18"<<endl<<0<<endl;
+                                cout<<"1 6 5 14"<<endl<<0<<endl;
                             }
                         }
                     }
