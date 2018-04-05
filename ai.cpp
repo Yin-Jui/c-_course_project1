@@ -176,7 +176,7 @@ int main() {
                 break;
             case 3:
 
-                probability=1;
+                probability=0;
                 break;
             }
 
@@ -211,10 +211,8 @@ int main() {
                         }
                     }
                     if(mana>=4) {
-                        if(boolean) {
                             if(deck1=='6'||deck2=='6'||deck3=='6'||deck4=='6') {
                                 cout<<"1 6 5 12"<<endl<<0<<endl;
-                            }
                         }
                     }
                     /*		if(mana>=7) {
