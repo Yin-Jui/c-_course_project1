@@ -176,7 +176,7 @@ int main() {
                 break;
             case 3:
 
-                probability=0;
+                probability=1;
                 break;
             }
 
@@ -245,7 +245,7 @@ int main() {
 
                     if(mana>=6&&Time<168) {
                         if(deck1=='4'||deck2=='4'||deck3=='4'||deck4=='4') {
-                            cout<<"1 4 12 17"<<endl<<0<<endl;
+                            cout<<"1 4 14 18"<<endl<<0<<endl;
                         }
                     }
                     if(mana>=3&&Time<165) {
