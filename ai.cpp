@@ -196,7 +196,7 @@ int main() {
 
                     if(mana>=3) {
                         if(deck1=='9'||deck2=='9'||deck3=='9'||deck4=='9') {
-                            cout<<"1 9 5 12"<<endl<<0<<endl;
+                            cout<<"1 9 15 12"<<endl<<0<<endl;
                         }
                     }
 
