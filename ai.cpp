@@ -255,11 +255,11 @@ int main() {
                         }
                     }
 
-                    if(mana>=7&&Time<125) {
+              /*      if(mana>=7&&Time<125) {
                             if(deck1=='C'||deck2=='C'||deck3=='C'||deck4=='C') {
                                 cout<<"1 C 15 18"<<endl<<0<<endl;
                         }
-                    }
+                    }*/
                     if(mana>=4&&Time<170) {
                         if(deck1=='6'||deck2=='6'||deck3=='6'||deck4=='6') {
                             cout<<"1 6 18 20"<<endl<<0<<endl;
